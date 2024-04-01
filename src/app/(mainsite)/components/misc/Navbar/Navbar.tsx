@@ -201,9 +201,9 @@ export default function Navbar() {
           />
 
           
-          <a href={"tel:"+process.env.NEXT_PUBLIC_PHONE_NUM} className={styles.cta}>
+          <Link href={"/contact"} className={styles.cta}>
             <span>Get A Quote</span>
-          </a>
+          </Link>
           
 
           </ul>
