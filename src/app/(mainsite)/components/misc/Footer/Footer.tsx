@@ -49,7 +49,10 @@ export default function Footer() {
                   <a href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL_ADDRESS} target="_blank">{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
                 </aside>
                 
-    
+                <aside className={`${styles.contactItem} ${styles.listItem}`}>
+                <InlineIcon icon={"mdi:map-marker"} width="50px" height="50px" />
+                  <a href="https://google.com" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
+                </aside>
 
               </ul>
             </aside>
