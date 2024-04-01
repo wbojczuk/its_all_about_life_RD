@@ -1,0 +1,42 @@
+.header{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 2) 0;
+    color: var(--secondary-text-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.content{
+    padding: 2vw;
+    width: 40%;
+}
+
+.header h1{
+font-size: 5.5rem;
+}
+
+.header p{
+    margin: 3vw 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-right: 30%;
+    font-family: var(--secondary-font);
+    line-height: 200%;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}
