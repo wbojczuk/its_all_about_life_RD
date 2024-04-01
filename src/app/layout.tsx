@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Oswald, Roboto } from 'next/font/google'
+import { Faustina, Open_Sans } from 'next/font/google'
 import Footer from './(mainsite)/components/misc/Footer/Footer';
 import Navbar from './(mainsite)/components/misc/Navbar/Navbar';
 import Script from 'next/script';
@@ -16,12 +16,12 @@ import Script from 'next/script';
 import "./(mainsite)/components/styling_sheets/links/mainlink.css"
 
 
-const primaryFont = Roboto({ subsets: ['latin'], weight: ["100", "300", "400", "500", "900"], display: "swap", variable: "--primary-font" })
-const secondaryFont = Oswald({ subsets: ['latin'], weight: ["300", "500", "700"], display: "swap", variable: "--secondary-font" })
+const primaryFont = Faustina({ subsets: ['latin'], weight: ["300", "400", "500", "600", "700", "800"], display: "swap", variable: "--primary-font" })
+const secondaryFont = Open_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "600", "700", "800"], display: "swap", variable: "--secondary-font" })
 
 export const metadata: Metadata = {
-  title: 'Template Site Title',
-  description: 'Template Site Desc'
+  title: 'It\'s All About Life Insurance',
+  description: 'It\'s All About Life Insurance | life insurance, mortgage insurance'
 }
 
 export default function RootLayout({

@@ -1,7 +1,8 @@
 .footer{
+    border-top: 8px solid var(--primary-color);
     padding-top: 4vw;
-    background-color: #1a1a1a;
-    color: var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .footer a{
@@ -16,7 +17,7 @@
     left:0;
     height: 2px;
     width: 100%;
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-text-color);
     transform-origin: left;
     transform: scaleX(0);
     transition: 0.3s transform, 0.3s background-color;
@@ -59,14 +60,15 @@
 }
 
 .listItem{
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+    font-family: var(--secondary-font);
     display: block;
     margin: 0.8vw 0;
     font-size: 1.2rem;
 }
 
 .listItem a, .copyright a{
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
