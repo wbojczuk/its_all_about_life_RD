@@ -20,7 +20,7 @@ const primaryFont = Faustina({ subsets: ['latin'], weight: ["300", "400", "500",
 const secondaryFont = Open_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "600", "700", "800"], display: "swap", variable: "--secondary-font" })
 
 export const metadata: Metadata = {
-  title: 'It\'s All About Life Insurance',
+  title: 'It\'s All About Life | Insurance Provider',
   description: 'It\'s All About Life Insurance | life insurance, mortgage insurance'
 }
 
