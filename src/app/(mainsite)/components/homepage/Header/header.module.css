@@ -28,15 +28,32 @@ font-size: 5.5rem;
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
-
+    .header h1{
+        font-size: 5rem;
+        }
 }
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .bgImg{
+        object-position: 25%;
+    }
+    .content{
+        padding: 3vw;
+        width: 60%;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .bgImg{
+        object-position: 25%;
+    }
+    .content{
+        padding: 3vw;
+        width: 80%;
+    }
+    .header p{
+        margin: 6vw 0;
+    }
 }

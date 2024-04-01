@@ -83,15 +83,93 @@
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
-
+    .coverage h2{
+        font-size: 6rem;
+    }
 }
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .coverage{
+        flex-direction: column;
+        gap: 4vw;
+    }
+    
+    .coverage h2{
+        width: 100%;
+        padding: 8% 0;
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    
+    .itemWrapper{
+        width: 80%;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    
+    .item{
+        width: 35%;
+    }
+    
+    
+    .item h3{
+        padding-left: 1.5vw;
+    }
+    .item h3::after{
+         width: 0.5vw;
+    }
+    
+    .item a{
+        padding-bottom: 0.4vw;
+        font-size: 1.8rem;
+    }
+    .item a::after{
+        height: 0.6vw;
+   }
+    
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .coverage{
+        flex-direction: column;
+        gap: 4vw;
+    }
+    
+    .coverage h2{
+        width: 100%;
+        padding: 8% 0;
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    
+    .itemWrapper{
+        width: 80%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 8vw;
+    }
+    
+    .item{
+        width: 80%;
+        padding: 5%;
+    }
+    
+    
+    .item h3{
+        padding-left: 3vw;
+        font-size: 2.5rem;
+    }
+    .item h3::after{
+         width: 1.5vw;
+    }
+    
+    .item a{
+        padding-bottom: 0.4vw;
+        font-size: 2.5rem;
+    }
+    .item a::after{
+        height: 0.6vw;
+   }
 }

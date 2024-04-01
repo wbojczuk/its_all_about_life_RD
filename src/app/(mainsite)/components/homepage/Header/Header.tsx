@@ -14,7 +14,7 @@ return (
             <Link className='main-link' href={"/contact"}>Get A Quote</Link>
         </div>
     
-        <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
+        <img src='/img/header-bg.png' alt='Image of ' className={`bg-img ${styles.bgImg}`} />
         <div className='shader'></div>
     </header>
 )};

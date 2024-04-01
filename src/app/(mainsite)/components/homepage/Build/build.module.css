@@ -53,15 +53,40 @@
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
-
+    .build p{
+        padding: 4vw 25%;
+    }
 }
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .buildWrapper{
+        width: 90%;
+    }
+    .build h2{
+        font-size: 5rem;
+    }
+    .build p{
+        padding: 6vw 20%;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+    .buildWrapper{
+        width: 95%;
+    }
+    .build h2{
+        font-size: 3.5rem;
+    }
+    .build p{
+        padding: 8vw 10%;
+    }
+}
 
+ /* SMALL MOBILE STYLES */
+ @media only screen and (max-width: 290px){
+    .build h2{
+        font-size: 2.5rem;
+    }
 }
