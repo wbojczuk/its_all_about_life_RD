@@ -48,6 +48,11 @@ export default function Footer() {
                 <InlineIcon icon={"mdi:email"} width="50px" height="50px" />
                   <a href={"mailto:" + process.env.NEXT_PUBLIC_EMAIL_ADDRESS} target="_blank">{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
                 </aside>
+
+                <aside className={`${styles.contactItem} ${styles.listItem}`}>
+                <InlineIcon icon={"mdi:phone"} width="50px" height="50px" />
+                  <a href={"tel:" + process.env.NEXT_PUBLIC_PHONE_NUM} target="_blank">{process.env.NEXT_PUBLIC_PHONE_NUM_FORMATTED}</a>
+                </aside>
                 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <InlineIcon icon={"mdi:map-marker"} width="50px" height="50px" />
