@@ -1,0 +1,21 @@
+.pageTitle{
+    padding: calc(var(--section-padding-top) * 1.5) 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.pageTitle h1{
+    font-size: 5rem;
+    color: var(--primary-color-dark);
+}
+
+.pageTitle h2{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-top: 1vw;
+}

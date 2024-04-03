@@ -1,3 +1,6 @@
+import GoodFit from "@/app/(mainsite)/components/aboutpage/GoodFit/GoodFit"
+import Insurance from "@/app/(mainsite)/components/insurancepage/Insurance/Insurance"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -8,7 +11,9 @@ export const metadata: Metadata = {
 export default function InsurancePage(){
 	 return(
 	 	 <>
-
-	 	 </>
-	 )
+			<PageTitle pageTitle="The Coverage We Offer" subtitle="See what options are available for you" />
+			<Insurance />
+			<GoodFit />
+		 </>
+	 ) 
 }

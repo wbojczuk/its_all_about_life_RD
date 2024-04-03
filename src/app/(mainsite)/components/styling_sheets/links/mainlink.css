@@ -14,6 +14,12 @@
   border: none;
 }
 
+.main-link-outline{
+  color: var(--primary-color-dark);
+  border: 2px solid var(--primary-color-dark);
+  background-color: transparent;
+}
+
 .main-link::after{
   content: '';
   display: inline-block;

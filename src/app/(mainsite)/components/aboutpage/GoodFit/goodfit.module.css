@@ -1,0 +1,51 @@
+.goodFit{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.goodFit h3{
+    color: var(--primary-color-dark);
+    font-size: 4.5rem;
+    width: 35%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.goodFit p{
+    margin: 2vw 0;
+    font-size: 1.4rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+    .goodFit h3{
+        width: 40%;
+    }
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .goodFit h3{
+        width: 60%;
+    }
+    .goodFit p{
+        margin: 3vw 0;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .goodFit h3{
+        width: 85%;
+    }
+    .goodFit p{
+        margin: 4vw 0;
+    }
+}
