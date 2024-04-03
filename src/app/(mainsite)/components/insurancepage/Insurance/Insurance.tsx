@@ -7,7 +7,7 @@ export default function Insurance() {
     <section className={styles.section}>
         <div className={styles.itemWrapper}>
           <div className={styles.imgWrapper}>
-              <img className={styles.img} src="/img/old.png" width={360} height={600} alt="Image of old people" />
+              <img className={styles.img} src="/img/old.webp" width={360} height={600} alt="Image of old people" />
           </div>
           
 
@@ -22,7 +22,7 @@ export default function Insurance() {
 
         <div className={styles.itemWrapper}>
           <div className={styles.imgWrapper}>
-              <img className={styles.img} src="/img/jumping.png" width={360} height={600} alt="Image of man jumping" />
+              <img className={styles.img} src="/img/jumping.webp" width={360} height={600} alt="Image of man jumping" />
           </div>
           
 
@@ -37,7 +37,7 @@ export default function Insurance() {
 
         <div className={styles.itemWrapper}>
           <div className={styles.imgWrapper}>
-              <img className={styles.img} src="/img/iul.png" width={360} height={600} alt="Image of boat" />
+              <img className={styles.img} src="/img/iul.webp" width={360} height={600} alt="Image of boat" />
           </div>
           
 
@@ -53,7 +53,7 @@ export default function Insurance() {
 
         <div className={styles.itemWrapper}>
           <div className={styles.imgWrapper}>
-              <img className={styles.img} src="/img/house.png" width={360} height={600} alt="Image of house" />
+              <img className={styles.img} src="/img/house.webp" width={360} height={600} alt="Image of house" />
           </div>
           
 

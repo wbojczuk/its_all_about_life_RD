@@ -15,7 +15,7 @@ return (
                 <Link href="/insurance">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"></path></svg></Link>
            </div>
 
-            <img src="/img/old.png" aria-hidden className='bg-img' />
+            <img src="/img/old.webp" aria-hidden className='bg-img' />
             <div className="shader" style={{backgroundColor: "rgba(255,255,255,.85)"}}></div>
         </div>
 
@@ -26,7 +26,7 @@ return (
                 <Link href="/insurance">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"></path></svg></Link>
            </div>
 
-            <img src="/img/jumping.png" aria-hidden className='bg-img' />
+            <img src="/img/jumping.webp" aria-hidden className='bg-img' />
             <div className="shader" style={{backgroundColor: "rgba(255,255,255,.85)"}}></div>
         </div>
 
@@ -37,7 +37,7 @@ return (
                 <Link href="/insurance">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"></path></svg></Link>
            </div>
 
-            <img src="/img/iul.png" aria-hidden className='bg-img' />
+            <img src="/img/iul.webp" aria-hidden className='bg-img' />
             <div className="shader" style={{backgroundColor: "rgba(255,255,255,.85)"}}></div>
         </div>
 
@@ -48,7 +48,7 @@ return (
                 <Link href="/insurance">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m184.49 136.49l-80 80a12 12 0 0 1-17-17L159 128L87.51 56.49a12 12 0 1 1 17-17l80 80a12 12 0 0 1-.02 17"></path></svg></Link>
            </div>
 
-            <img src="/img/house.png" aria-hidden className='bg-img' />
+            <img src="/img/house.webp" aria-hidden className='bg-img' />
             <div className="shader" style={{backgroundColor: "rgba(255,255,255,.85)"}}></div>
         </div>
     </div>

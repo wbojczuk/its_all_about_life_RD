@@ -6,7 +6,7 @@ export default function Wealth() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src="/img/boat.png" width={360} height={600} alt="People Praising Image" />
+            <img className={styles.img} src="/img/boat.webp" width={360} height={600} alt="People Praising Image" />
         </div>
         
 

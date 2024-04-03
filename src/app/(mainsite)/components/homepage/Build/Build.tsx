@@ -12,7 +12,7 @@ return (
             <Link className='main-link' href='/contact'>Get A Quote</Link>
         </div>
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>
-    <img src="/img/build-bg.png" alt="man looking into the ocean" className="bg-img" />
+    <img src="/img/build-bg.webp" alt="man looking into the ocean" className="bg-img" />
     </div>
 
    
