@@ -31,12 +31,17 @@
 }
 .content{
     display: inline-flex;
-    width: 60%;
+    width: 70%;
     padding-bottom: 2vw;
     margin: 0 20%;
     align-items: flex-start;
     justify-content: space-between;
     border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+
+.icons{
+    width: 35%;
 }
 
 .logo{
@@ -80,8 +85,8 @@
 }
 
 .contactItem svg{
-    width: 1.2vw;
-    height: 1.2vw;
+    width:1.5rem;
+    height: 1.5rem;
 }
 
 .copyright{

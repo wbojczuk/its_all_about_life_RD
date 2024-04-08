@@ -40,7 +40,7 @@ export default function Footer() {
               </ul>
             </aside>
 
-            <aside>
+            <aside className={styles.icons}>
               <h3 className={styles.listTitle}>Contact</h3>
               <ul className={styles.list}>
                 
