@@ -24,6 +24,8 @@
     color: var(--primary-heading);
    }
 
+   
+
 .textContent p{
     padding-bottom:1vw;
     width: 80%;
@@ -54,6 +56,9 @@
     font-size: 1.1rem;
     margin: 0.5vw 0;
 }
+.formContent{
+    width: 40%;
+}
 
 .contactItem svg{
     color: var(--primary-color);
@@ -63,6 +68,10 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
+    .formContent{
+        width: 50%;
+    }
+    
     .contactInfo{
         padding: var(--section-padding-top) 2.5%;
     }
@@ -77,6 +86,12 @@
         font-size: 4.5rem;
         padding: 0 5% 6vw 5%;
        }
+       .newFormWrapper{
+        margin-top: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
 }
  
 /* MOBILE STYLES */
@@ -89,12 +104,20 @@
         font-size: 3rem;
         padding: 0 2.5% 8vw 2.5%;
        }
-
+       .formContent{
+        width: 100%;
+    }
     .stuffWrapper{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
+    .newFormWrapper{
+        margin-top: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
     
     .textContent{
         padding-top: 8vw;

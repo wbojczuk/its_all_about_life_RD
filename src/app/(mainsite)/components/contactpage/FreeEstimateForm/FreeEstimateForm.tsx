@@ -22,6 +22,8 @@ export default function FreeEstimateForm() {
 
         {/* START FIELDS */}
 
+            <h4 id="estimateFormTitle">Contact Form</h4>
+
             <div className="input-wrapper">
                 <input required type="text" name="Name" id="nameInput" placeholder={"Name"} />
             </div>
