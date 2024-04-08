@@ -6,7 +6,7 @@ export default function PageTitle(props: {pageTitle: string, subtitle: string}) 
         <h1>{props.pageTitle}</h1>
         <h2>{props.subtitle}</h2>
 
-        <img src="/img/pagetitle-bg.webp" className="bg-img" aria-hidden />
+        <img src="/img/pagetitle-bg1.webp" className="bg-img" aria-hidden />
         <div style={{backgroundColor: "rgba(255,255,255,.77)"}} className="shader"></div>
     </header>
   )
