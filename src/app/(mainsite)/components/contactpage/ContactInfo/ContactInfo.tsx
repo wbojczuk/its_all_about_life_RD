@@ -1,6 +1,8 @@
+"use client"
 import styles from "./contactinfo.module.css"
 import FreeEstimateForm from "../FreeEstimateForm/FreeEstimateForm"
 import Script from "next/script"
+import { InlineWidget } from "react-calendly"
 
 export default function ContactInfo() {
   return (
@@ -24,9 +26,8 @@ export default function ContactInfo() {
   <span>{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</span>
 </a>
         </div>
-        <div className={styles.formContent}>
-        <div className="calendly-inline-widget" data-url="https://calendly.com/itsallaboutlifeinsurance/30min?primary_color=5ebdc3" style={{width:"100%", height:"700px"}}></div>
-          <Script src="https://assets.calendly.com/assets/external/widget.js" async />   
+        <div className={styles.formContent}>  
+        <InlineWidget styles={{width: "100%", height: "700px"}} url="https://calendly.com/itsallaboutlifeinsurance/30min?primary_color=5ebdc3" />
         </div>
         </div>
         <div className={styles.newFormWrapper}>
