@@ -157,6 +157,9 @@
         align-items: center;
         gap: 8vw;
     }
+    .icons{
+        width: auto;
+    }
     
     .logo{
         width: 30vw;
@@ -183,6 +186,9 @@
     
     .contactItem{
         gap: 1.5vw;
+    }
+    .contactItem a{
+       width: 100%;
     }
     
     .contactItem svg{
