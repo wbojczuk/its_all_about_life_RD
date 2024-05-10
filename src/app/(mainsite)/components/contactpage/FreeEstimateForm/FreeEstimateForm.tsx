@@ -25,14 +25,21 @@ export default function FreeEstimateForm() {
             <h4 id="estimateFormTitle">Contact Form</h4>
 
             <div className="input-wrapper">
-                <input required type="text" name="Name" id="nameInput" placeholder={"Name"} />
+                <input className="half-input" required type="text" name="Name" id="nameInput" placeholder={"Name"} />
+                <input className="half-input" required type="text" name="Age" id="ageInput" placeholder={"Age"} />
+            </div>
+
+            <div className="input-wrapper">
+                <input className="half-input" required type="text" name="Height" id="heightInput" placeholder={"Height"} />
+                <input className="half-input" required type="text" name="Weight" id="weightInput" placeholder={"Weight"} />
+            </div>
+
+            <div className="input-wrapper">
+                <input required type="text" name="Date_of_Birth" id="dobInput" placeholder={"Date of Birth"} />
             </div>
             
             <div className="input-wrapper">
                 <input required type="text" name="Phone_Number" id="phoneNumberInput" placeholder={"Phone Number"} />
-            </div>
-            <div className="input-wrapper">
-                <input required type="email" name="Email" id="emailInput" placeholder={"Email Address"} />
             </div>
             <div className="input-wrapper">
                 <textarea required maxLength={9999} name="Details" id="messageInput" placeholder={"Any Details..."}></textarea>
