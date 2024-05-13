@@ -35,6 +35,10 @@ export default function FreeEstimateForm() {
             </div>
 
             <div className="input-wrapper">
+                <input required type="email" name="Email" id="emailInput" placeholder={"Email"} />
+            </div>
+
+            <div className="input-wrapper">
                 <input required type="text" name="Date_of_Birth" id="dobInput" placeholder={"Date of Birth"} />
             </div>
             
