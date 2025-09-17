@@ -32,9 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId={"GTM-5NRDRX3V"} />
       <body className={`${primaryFont.variable} ${secondaryFont.variable}`}>
 
-        <GoogleTagManager gtmId={"GTM-5NRDRX3V"} />
+        
         <Navbar />
 
         {children}
